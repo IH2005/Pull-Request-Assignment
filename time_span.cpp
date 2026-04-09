@@ -1,6 +1,8 @@
 #include "time_span.h"
 #include <iostream>
 
+// his C++ code defines a TimeSpan class that represents a duration of time in hours, minutes, and seconds, automatically normalizing values so they stay in a standard format.
+
  TimeSpan::TimeSpan(int seconds)
     :hours_(0), minutes_(0), seconds_(seconds)
     {this->normalize();}
